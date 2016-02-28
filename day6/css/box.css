@@ -1,0 +1,29 @@
+html {
+    background: #ccc;
+}
+
+div, p {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background: #9CF;
+    padding: 1px;
+}
+
+.box {
+    background: #00ff00;
+    padding: 10px;
+    border: 2px solid #000;
+    margin: 20px;
+
+}
+
+p {
+    background: #EEA458;
+    height: 100%;
+}

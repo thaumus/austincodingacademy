@@ -1,0 +1,8 @@
+ section a {
+    color: red;
+}
+
+ section a:hover {
+   color:blue; 
+    
+}

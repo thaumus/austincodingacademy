@@ -1,0 +1,29 @@
+
+
+nav {
+    background: black;
+     height: 50px;
+}
+    
+    
+nav a {
+    color:white;
+    
+}
+
+.one {
+    
+background: green;
+    float: left;
+    
+}
+
+.two {
+    background: black;
+    float: left;
+}
+
+div {
+    width:45%;
+    
+}
