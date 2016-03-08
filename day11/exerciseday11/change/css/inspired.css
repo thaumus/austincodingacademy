@@ -1,0 +1,86 @@
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#lady {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 100px 50px;
+}
+
+.lady-text h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.lady-text p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+.bottom-one {
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+}
+
+.bottom-one h1 {
+    font-family: sans-serif;
+    color: darkgray;
+    font-size: 30px;
+}
+
+.bottom-one p {
+    font-family: sans-serif;
+    color: darkgray;
+    font-size: 8px;
+    float: left;
+}
+
+.mumbai {
+    font-family: sans-serif;
+    color: white;
+    float: left;
+    width: 40%;
+    padding-left: 50px;
+}
+
+.mumbai h1 {
+    font-family: sans-serif;
+    color: darkgray;
+    font-size: 30px;
+}
+
+.mumbai p {
+    font-family: sans-serif;
+    color: darkgray;
+    font-size: 8px;
+}
+
+#bottom {
+    background-color: white;
+    height: 270px;
+}
+
+@media (max-width: 640px) {
+    
+    
+    #lady {
+        background-image: url(../img/bg2.jpg);
+    }
+    
+    .bottom-one, mumbai {
+        float: none;
+        width: auto;
+        padding: 10px 20px;
+    }
+}
